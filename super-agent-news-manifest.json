@@ -1,0 +1,29 @@
+{
+  "citations": [
+    "[blog.google](https://blog.google)",
+    "[searchenginejournal.com](https://www.searchenginejournal.com)",
+    "[alm.com](https://www.alm.com)",
+    "[memeburn.com](https://memeburn.com)",
+    "[engineered.at](https://engineered.at/articles/build-a-bento-layout-with-css-grid)",
+    "[css-tricks.com](https://css-tricks.com/the-auto-flowing-powers-of-grids-dense-keyword/)",
+    "[housingwire.com](https://www.housingwire.com)",
+    "[realestatenews.com](https://www.realestatenews.com)"
+  ],
+  "design_plan": "Cinematic editorial landing with AIDA flow. Hero + sticky nav, followed by a dense CSS-grid bento explaining agent workflows. Serif-like grotesk headline (Cabinet Grotesk) paired with Satoshi body. Subtle GSAP scroll reveals guarded for CDN failure. Bento grid explicitly uses grid-auto-flow: dense and grid-auto-rows on large screens to avoid gaps. Motion kept tasteful and optional.",
+  "generated_at": "2026-06-29T18:47:30.451750+00:00",
+  "headline": "Super for real estate agents managing follow-ups, listings, and scheduling",
+  "site_brief": {
+    "audience": "real estate agents managing follow-ups, listings, and scheduling",
+    "goal": "Create a conversion-focused landing page for this audience. Tie current market evidence to pain points, then show how Super can operate apps and reuse a computer-use cache for repeated work.",
+    "kind": "niche_landing",
+    "queries": [
+      "real estate agents managing follow-ups, listings, and scheduling AI assistant",
+      "real estate agents managing follow-ups, listings, and scheduling personal AI agent",
+      "computer use AI agent",
+      "AI workflow automation"
+    ],
+    "slug": "super-for-real-estate-agents-managing-follow-ups-listings",
+    "title": "Super for real estate agents managing follow-ups, listings, and scheduling"
+  },
+  "summary": "A conversion-focused niche landing page positioning Super as the sharper, cheaper-for-repeat-work personal AI agent for real estate agents. Super operates real apps, automates follow-ups, listings, and scheduling, and reuses a computer-use cache\u2014grounded in current reporting on computer-use AI agents and workflow automation."
+}
