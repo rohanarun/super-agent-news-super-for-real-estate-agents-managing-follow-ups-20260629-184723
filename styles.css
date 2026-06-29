@@ -1,0 +1,110 @@
+/* Font stack: Cabinet Grotesk for headings, Satoshi for body */
+body {
+  margin: 0;
+  font-family: Satoshi, system-ui, sans-serif;
+  color: #0f172a;
+  background: #ffffff;
+}
+
+h1, h2, h3 {
+  font-family: 'Cabinet Grotesk', Satoshi, sans-serif;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,0.9);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #0f172a;
+}
+
+.cta {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.cta.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.cta.ghost {
+  background: transparent;
+  border: 1px solid #c7d2fe;
+}
+
+.hero {
+  max-width: 900px;
+  margin: 6rem auto;
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  line-height: 1.1;
+}
+
+.bento-wrapper {
+  max-width: 1200px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 1rem;
+  grid-auto-flow: dense; /* explicit dense flow */
+}
+
+@media (min-width: 1024px) {
+  .bento-grid {
+    grid-auto-rows: 1fr;
+  }
+}
+
+.bento {
+  background: #f8fafc;
+  border-radius: 16px;
+  padding: 1.5rem;
+  grid-column: span 4;
+}
+
+.bento.large {
+  grid-column: span 6;
+  grid-row: span 2;
+}
+
+.bento.wide {
+  grid-column: span 8;
+}
+
+.compare, .sources {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.footer {
+  border-top: 1px solid #e5e7eb;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: #475569;
+}
